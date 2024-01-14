@@ -7,9 +7,9 @@ let passportWithAddress = {
     }
 };
 
-let clone = structuredClone(passportWithAddress);
+let clone2 = structuredClone(passportWithAddress);
 
-clone.address.city = 'Bobryisk';
+clone2.address.city = 'Bobryisk';
 
 console.log(passportWithAddress.address.city)
-console.log(clone.address.city)
+console.log(clone2.address.city)
